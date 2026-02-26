@@ -3,7 +3,7 @@
 ---
 A structured 6-month, hands-on roadmap focused on building job-ready DevOps and platform engineering skills.
 
-This repository documents practical labs, automation scripts, containerized applications, CI/CD pipelines, cloud deployments, and Kubernetes projects — built from scratch and incrementally improved.
+This repository documents practical labs, automation scripts, containerized applications, CI/CD pipelines, cloud deployments, and Kubernetes projects.
 
 ## Repository Structure
 
