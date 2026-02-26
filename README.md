@@ -18,8 +18,7 @@ devops-journey/
 ├── cloud-deployment/
 ├── kubernetes/
 ├── monitoring/
-├── capstone-project/
-└── interview-prep/
+└── capstone-project/
 ```
 
 ---
