@@ -1,6 +1,7 @@
+# For all files
 # Ignore environment variables
-.env
+ **/.env
 # Hide log analysis report
-logs/log_analysis_report.txt
+ **/logs/log_analysis_report.txt
 # Remove Desktop Services Store
-.DS_Store
+ **/.DS_Store
