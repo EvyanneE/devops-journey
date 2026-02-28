@@ -1,0 +1,4 @@
+# Ignore environment variables
+.env
+# Hide log analysis report
+logs/log_analysis_report.txt
