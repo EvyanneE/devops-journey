@@ -22,4 +22,4 @@ Developed foundational shell automation skills essential for DevOps workflows.
 ## References
 
 Thank you to **TechWorld with Nana** for the tutorial!
-[https://www.youtube.com/watch?v=PNhq_4d-5ek](https://www.youtube.com/watch?v=PNhq_4d-5ek&utm_source=chatgpt.com) (Bash Scripting Tutorial for Beginners - TechWorld with Nana)
+[Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=PNhq_4d-5ek&utm_source=chatgpt.com)

@@ -8,14 +8,13 @@ Provisioned an Ubuntu-based development environment using a configurable Bash sc
 - Automated package installation
 - Repository cloning with correct permissions
 - PostgreSQL database creation and initialisation
-- Service troubleshooting using `systemctl` and `journalctl`
-- Service troubleshooting using `systemctl` and `journalctl`
+- Service troubleshooting using `systemctl`
 - Logging
 - Error handling
 
 ## Files Included
 
-- `setup-dev-env.sh` – TBC
+- `setup-dev-env.sh`
 
 - `logs/` – Log analysis output from `setup-dev-env.sh`
 
@@ -23,8 +22,7 @@ Provisioned an Ubuntu-based development environment using a configurable Bash sc
 
 Reproducible environment setup with built-in service validation and troubleshooting. Developed foundational Linux provisioning, service management, log analysis and bash automation skills.
 
-### Pictures 📸 
-
+### Pictures 📸
 
 ## References
 

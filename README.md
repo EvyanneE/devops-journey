@@ -1,10 +1,8 @@
-# devops-journey
+# DevOps Learning Plan
 
-## 6-Month DevOps Learning Plan
+A structured roadmap focused on building job-ready DevOps skills.
 
-A structured 6-month, hands-on roadmap focused on building job-ready DevOps and platform engineering skills.
-
-This repository documents practical labs, automation scripts, containerized applications, and CI/CD pipelines.
+This repository documents practical labs, automation scripts, containerised applications, and CI/CD pipelines.
 
 <!-- This repository documents practical labs, automation scripts, containerized applications, CI/CD pipelines, cloud deployments, and Kubernetes projects. -->
 
@@ -14,8 +12,8 @@ This repository documents practical labs, automation scripts, containerized appl
 devops-journey/
 │
 ├── bash-scripting/
-├── docker/
-└── docker-compose/
+├── local-dev-setup/
+└── docker-ci-cd-lab/
 ```
 
 <!-- ```
@@ -38,7 +36,8 @@ devops-journey/
 - Strong Linux fundamentals (users, permissions, services, logs)
 - Automation using Bash
 - Docker and multi-container applications
-<!-- - CI/CD pipelines with GitHub Actions
+- CI/CD pipelines with GitHub Actions
+<!--
 - Cloud VM deployment and remote management
 - Kubernetes deployments, scaling, and debugging
 - Monitoring and observability (Prometheus & Grafana)
@@ -50,6 +49,6 @@ Every project includes documentation explaining design decisions and how issues 
 
 ## Tech Stack
 
-Linux • Bash • Python • Docker • GitHub Actions
+Linux • Bash • MERN Stack • Docker • GitHub Actions
 
 <!-- Linux • Bash • Python • Docker • GitHub Actions • Cloud VMs • Kubernetes • Prometheus • Grafana -->
