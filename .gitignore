@@ -1,7 +1,38 @@
 # For all files
-# Ignore environment variables
+
+# Environment files
 .env
-# Hide log analysis report
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
 logs/log_analysis_report.txt
-# Remove Desktop Services Store
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

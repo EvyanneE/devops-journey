@@ -1,4 +1,4 @@
-# Automated Local Development Environment and Service Validation
+# Automated Local Development Environment and Service Validation (In Progress)
 
 Provisioned an Ubuntu-based development environment using a configurable Bash script.
 
@@ -22,7 +22,25 @@ Provisioned an Ubuntu-based development environment using a configurable Bash sc
 
 Reproducible environment setup with built-in service validation and troubleshooting. Developed foundational Linux provisioning, service management, log analysis and bash automation skills.
 
-### Pictures 📸
+## Notes
+
+### Managing Users
+
+- `sudo adduser <username>` - add a user
+- `sudo userdel <username>` - delete a user
+- `sudo vim /etc/passwd` - see all users
+- `sudo passwd <username>` - change the password
+
+### Creating Groups
+
+- `sudo groupadd <group name>` - make a group
+- `sudo groupdel <group name>` - delete a group
+- `sudo vim /etc/group` - see all groups
+
+### Change Permissions and Ownership
+
+- `sudo chmod < three-digit code for read write, or execute permissions for file owner, group member or other> <folder/file> -R` - set permissions for a file or a folder and its subfolders.
+- `sudo chown -R <user/group> <folder/file>` - set an owner for a file or a folder
 
 ## References
 
