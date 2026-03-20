@@ -1,4 +1,5 @@
 <html lang="en">
+<!-- Source: https://gitlab.com/nanuchi/techworld-js-docker-demo-app -->
 <style>
     .container {
         margin: 40px auto;
@@ -25,7 +26,7 @@
         display: inline-block;
     }
     #container {
-        display: none;
+        display: block;
     }
     #container-edit {
         display: none;
@@ -42,31 +43,53 @@
     }
 </style>
 <script>
+    function editProfile(){
+        document.querySelector('#container').style.display = 'none'
+        document.querySelector('#container-edit').style.display = 'block'
+
+        const name = document.querySelector('#name').textContent
+        document.querySelector('#input-name').value = name
+
+        const email = document.querySelector('#email').textContent
+        document.querySelector('#input-email').value = email
+
+        const interests = document.querySelector('#interests').textContent
+        document.querySelector('#input-interests').value = interests
+    }
+
+    function saveProfile() {
+        document.querySelector('#name').textContent = document.querySelector('#input-name').value
+        document.querySelector('#email').textContent = document.querySelector('#input-email').value
+        document.querySelector('#interests').textContent = document.querySelector('#input-interests').value
+
+        document.querySelector('#container').style.display = 'block'
+        document.querySelector('#container-edit').style.display = 'none'
+
+    }
+</script>
 <body>
     <div class='container' id='container'>
         <h1>User profile</h1>
-        // <img> src='profile-picture' alt="user-profile"</img>
+        <img src='profile-picture' alt="user-profile">
         <span>Name: </span><h3 id='name'>Anna Smith</h3>
         <hr />
         <span>Email: </span><h3 id='email'>anna.smith@example.com</h3>
         <hr />
         <span>Interests: </span><h3 id='interests'>coding</h3>
         <hr />
-        <button class='button' onclick="updateProfile()">Edit Profile</button>
+        <button class='button' onclick="editProfile()">Edit Profile</button>
     </div>
-    <div class='container' id='container-edit'>
+    <div class='container-edit' id='container-edit'>
         <h1>User profile</h1>
-        // <img> src='profile-picture' alt="user-profile"</img>
+        <img src='profile-picture' alt="user-profile">
         <span>Name: </span><label for='input-name'></label><input type="text" id='input-name' value='Anna Smith' />
         <hr />
         <span>Email: </span><label for='input-email'></label><input type="email" id='input-email' value='anna.smith@example.com' />
         <hr />
         <span>Interests: </span><label for='input-interests'></label><input type="text" id='input-interests' value='coding' />
         <hr />
-        <button class='button' onclick="handleUpdateProfileRequest()">Update Profile</button>
+        <button class='button' onclick="saveProfile()">Save Profile</button>
     </div>
 </body>
-</script>
 </html>
 
-<!-- Source: https://gitlab.com/nanuchi/techworld-js-docker-demo-app -->
